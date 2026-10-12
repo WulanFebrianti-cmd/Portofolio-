@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GANTI: nama dan deskripsi singkat untuk tab browser & Google -->
+  <title>Wulan Febrianti | Portofolio</title>
+  <meta name="description" content="Portofolio wulan , Informatika .">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="#hero" class="logo">Wulan</a>
+    <nav id="menu" class="menu">
+      <a href="#tentang">Tentang</a>
+      <a href="#skill">Skill</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="aksi">
+      <button id="tema" class="ikon" aria-label="Ganti tema">🌙</button>
+      <button id="hamburger" class="ikon burger" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-teks">
+        <h1 id="nama">Wulan Febarianti</h1>
+        <p class="peran"><span id="mengetik"></span><span class="kursor">|</span></p>
+        <p class="ringkas">Hai!Saya suka membaca</p>
+        <div class="tombol-grup">
+      </div>
+      <div class="foto-wrap">
+        <span id="inisial" class="inisial">N</span>
+        <!-- GANTI: simpan foto di folder yang sama dengan nama foto.jpg. Kalau tidak ada foto, biarkan saja. -->
+        <img src="foto.jpg" alt="Foto WULAN " class="foto" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="bagian muncul">
+      <h2>Tentang saya</h2>
+      <div class="dua-kolom">
+        <p>Perkenalkan Saya Wulan Febrianti. Mahasiswa Dari Program Studi Informatika</p>
+      </div>
+      <ul class="info">
+        <li><strong>Pendidikan</strong> Universitas Muhammadiyah Maumere\ Informatika</li>
+        <li><strong>Lokasi</strong> Maumere, Nusa Tenggara Timur</li>
+        <li><strong>Hoby</strong> Membaca, Mendengarkan musik dan nonton</li>
+      </ul>
+    </section>
+
+    <!-- SKILL -->
+    <section id="skill" class="bagian muncul">
+      <h2>Skill</h2>
+      <div class="skill-list">
+        <div class="skill">
+          <div class="skill-judul"><span>Word\excel</span><span>70%</span></div>
+          <div class="bar"><div class="isi" data-level="70"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-judul"><span>Desain</span><span>60%</span></div>
+          <div class="bar"><div class="isi" data-level="60
+            "></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-judul"><span>Edit</span><span>50%</span></div>
+          <div class="bar"><div class="isi" data-level="50"></div></div>
+        </div>
+      </div>
+      <!-- Mau ubah angkanya? Ganti angka "80%" DAN data-level="80" dengan angka yang sama. -->
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="bagian muncul">
+      <h2>Kontak</h2>
+      <p class="pengantar">Tertarik bekerja sama atau sekadar ingin menyapa? Hubungi saya lewat:</p>
+      <div class="kontak-list">
+        <a href="mailto:febriantiwulan829@gmail.com">febriantiwulan829@gmail.com</a>
+        <a href="https://github.com/WulanFebrianti-cmd" target="_blank" rel="noopener">GitHub</a>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="tahun"></span> Wulan Febrianti. Dibuat dengan HTML, CSS, dan JavaScript.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
